@@ -27,5 +27,9 @@ public class StrategyApp {
           }
         });
     team.play(0);
+
+      //Repliegue de jugadores
+    team.setGameStrategy(new RetractionStrategy());
+    team.play(10);
   }
 }

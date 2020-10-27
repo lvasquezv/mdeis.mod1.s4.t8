@@ -9,6 +9,11 @@ Se implemento los entregables:
 2 Todas las estrategias en uso en la clase StrategyApp.
 3 Publicar un enlace público hacia su código (repositorio)
 
+Se implementaron las estrategias siguientes:
+- Repliegue (RetractionStrategy)
+- Jaula de pajaro (BirdCageStrategy)
+- Ataque masivo (MassiveAttackStrategy).
+
 ### Integrantes del grupo ###
 1. Carlos G. Cruz Andia
 2. Jose Carlos Gutierrez

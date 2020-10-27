@@ -28,8 +28,16 @@ public class StrategyApp {
         });
     team.play(0);
 
-      //Repliegue de jugadores
+    //Repliegue de jugadores
     team.setGameStrategy(new RetractionStrategy());
+    team.play(10);
+
+     //Jaula de pajaro
+    team.setGameStrategy(new BirdCageStrategy());
+    team.play(10);
+
+    //Ataque masivo
+    team.setGameStrategy(new MassiveAttackStrategy());
     team.play(10);
   }
 }
